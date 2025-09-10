@@ -45,5 +45,5 @@ console.log(`El total de las notas aprobadas es de: ${aprovedExams}`);
 
 
 
-const medianExams = exams.reduce((base , median) => base + median.score / exams.length, 0);
-console.log(`La media de las notas es de: ${medianExams.toFixed(2)}`);
+const medianExams = exams.reduce((base , median) => base + median.score / exams.length, 0).toFixed(2);
+console.log(`La media de las notas es de: ${medianExams}`);
